@@ -1,0 +1,132 @@
+/* ---------- Colors ---------- */
+:root {
+  --background: #efdcc2;
+  --header: #738d64;
+  --nav-bar: #133107;
+  --border: #9b805c;
+  --text: #000000;
+  --white: #ffffff;
+}
+
+/* ---------- Page ---------- */
+body {
+  margin: 0;
+  background-color: #efdcc2;
+}
+
+/* ---------- Header ---------- */
+.site-header {
+  height: 176px;
+  background-color: #738d64;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-title {
+  margin: 0;
+  font-family: "Kranky", cursive;
+  font-weight: 400;
+  font-size: 128px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* ---------- Navigation ---------- */
+.main-nav {
+  height: 124px;
+  background-color: #133107;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon {
+  width: 36px;
+  margin: 0 16px;
+}
+
+.nav-link {
+  font-family: "Jockey One", sans-serif;
+  font-size: 64px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Page body (side panels + main content) ---------- */
+.page-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---------- Side panels ---------- */
+/* The border pattern images are exported from Figma already turned upright */
+.side-panel {
+  width: 145px;
+  height: 718px;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-panel-left {
+  background-image: url("images/border-left.png");
+}
+
+.side-panel-right {
+  background-image: url("images/border-left.png");
+}
+
+.swirl {
+  width: 60px;
+  height: 68px;
+}
+
+/* ---------- Main content ---------- */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+}
+
+.page-heading {
+  align-self: flex-start;
+  margin: 0 0 67px 39px;
+  font-family: "McLaren", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #000000;
+}
+
+.body-text {
+  width: 907px;
+  margin: 0 0 10px 0;
+  font-family: "Kite One", sans-serif;
+  font-size: 32px;
+  color: #000000;
+}
+
+.sword {
+  width: 570px;
+  height: 184px;
+}

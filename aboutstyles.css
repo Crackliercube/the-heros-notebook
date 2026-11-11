@@ -1,0 +1,135 @@
+/* ---------- Colors from Figma ---------- */
+/* header green  #738d64
+   nav green     #133107
+   background    #efdcc2
+   border brown  #9b805c */
+
+/* ---------- Page ---------- */
+body {
+  margin: 0;
+  background-color: #efdcc2;
+  color: #000000;
+  font-family: "Kite One", sans-serif;
+  font-size: 32px;
+}
+
+/* ---------- Header (title + nav) ---------- */
+.site-header {
+  width: 100%;
+}
+
+.site-title {
+  margin: 0;
+  height: 176px;
+  line-height: 176px;
+  background-color: #738d64;
+  color: #ffffff;
+  font-family: "Kranky", cursive;
+  font-size: 128px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* ---------- Navigation ---------- */
+.site-nav {
+  height: 124px;
+  background-color: #133107;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  height: 124px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon {
+  width: 36px;
+  margin: 0 20px;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-family: "Jockey One", sans-serif;
+  font-size: 64px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Main area: border | content | border ---------- */
+.page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* ---------- Decorative side borders ---------- */
+.side-border {
+  width: 145px;
+  height: 718px;
+  flex-shrink: 0;
+}
+
+.side-border-image {
+  width: 145px;
+  height: 718px;
+}
+
+/* ---------- Center content ---------- */
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+
+/* ---------- Left column: name + bio ---------- */
+.bio {
+  width: 412px;
+}
+
+.name {
+  margin: 0;
+}
+
+.email {
+  display: block;
+  margin-bottom: 32px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.bio-text {
+  margin: 0;
+}
+
+/* ---------- Right column: overview + photo ---------- */
+.overview {
+  width: 500px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.overview-title {
+  margin: 0;
+}
+
+.overview-text {
+  margin: 0 0 40px 0;
+}
+
+.shelf-photo {
+  width: 402px;
+}
